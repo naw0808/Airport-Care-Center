@@ -1,5 +1,5 @@
 (function () {
-    const urlScriptLayanan = "https://script.google.com/macros/s/AKfycbzaz9OT6qh_cBYjsszT4KX-rUUUVCWymK8RqjI0OpK7OLXS1PYREX0z7rPbu6r3lNJv/exec";
+    const urlScriptLayanan = "https://script.google.com/macros/s/AKfycbwPidXtpiKIxIX4sc28FwgM48y6XbxjSb7XOYq3DrJlDzug1JE8ZdUiNawu2L5CD3r1/exec";
 
     function main() {
         initServiceButtons();
