@@ -813,7 +813,7 @@ footer {
   }
   #bg-graphic::before {
     background-position: unset;
-    background-image: url("./graphic-landscape.png");
+    background-image: url("./bg-landscape.png");
   }
 }
 
