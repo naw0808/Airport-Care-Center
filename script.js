@@ -170,7 +170,7 @@
                 .then(response => {
                     showModal(
                         "Sukses!",
-                        "✅ Layanan yang Anda pilih telah terkirim. Mohon tunggu hingga Petugas menghampiri."
+                        "✅ Permohonan Anda Telah Diterima, Mohon Tunggu, Petugas kami akan menghampiri Anda dalam waktu maksimal 15 menit. Jika Anda membutuhkan bantuan lebih lanjut, silahkan hubungi Call Center kami di 0853-5360-6816."
                     )
                     console.log(response);
                 })
