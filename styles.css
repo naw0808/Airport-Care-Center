@@ -266,10 +266,6 @@
   display: none;
 }
 
-.services {
-  flex.wrap: wrap;
-}
-
 main section:not(#overview) {
   padding: 20px 32px;
 }
@@ -321,6 +317,10 @@ main section:not(#overview) {
   gap: 8px;
   transition: max-height 0.2s ease-out;
   margin: 5px;
+}
+
+.services {
+  flex-wrap: wrap;
 }
 
 .service-head {
