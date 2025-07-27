@@ -85,7 +85,7 @@
             })
                 .then((response) => {
                     if (response.ok) {
-                        showModal("Sukses!", "✅ Permohonan Anda Telah Diterima, Mohon Tunggu, Petugas kami akan menghampiri Anda dalam waktu maksimal 15 menit. Jika Anda membutuhkan bantuan lebih lanjut, silahkan hubungi Call Center kami di 0821-3400-1129.", "success");
+                        showModal("Sukses!", "✅ Permohonan Anda Telah Diterima, Mohon Tunggu, Petugas kami akan menghampiri Anda dalam waktu maksimal 5 menit. Jika Anda membutuhkan bantuan lebih lanjut, silahkan hubungi Call Center kami di 0821-3400-1129.", "success");
                         form.reset(); // Clear the form after successful submission
                         console.log("success")
                     } else {
@@ -170,7 +170,7 @@
                 .then(response => {
                     showModal(
                         "Sukses!",
-                        "✅ Permohonan Anda Telah Diterima, Mohon Tunggu, Petugas kami akan menghampiri Anda dalam waktu maksimal 15 menit. Jika Anda membutuhkan bantuan lebih lanjut, silahkan hubungi Call Center kami di 0821-3400-1129."
+                        "✅ Permohonan Anda Telah Diterima, Mohon Tunggu, Petugas kami akan menghampiri Anda dalam waktu maksimal 5 menit. Jika Anda membutuhkan bantuan lebih lanjut, silahkan hubungi Call Center kami di 0821-3400-1129."
                     )
                     console.log(response);
                 })
